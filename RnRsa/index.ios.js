@@ -2,7 +2,7 @@ import { NativeModules } from 'react-native'
 
 const RSAManager = NativeModules.RSAManager
 
-export default class JVerification {
+export default class RnRsa {
     /**
      * 加密
      */

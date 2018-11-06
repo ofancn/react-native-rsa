@@ -2,7 +2,7 @@ import { JSEncrypt } from '../plugin/jsencrypt'
 
 const RSA = new JSEncrypt()
 
-export default class JVerification {
+export default class RnRsa {
     /**
      * 加密
      */
