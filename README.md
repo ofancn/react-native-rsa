@@ -23,10 +23,10 @@ android 采用 jsencrypt (后期加入原生)
 
 RSA.encrypt(str,pubkey)
             .then(result => {
-                action(result)
+                //加密成功
             })
             .catch(error => {
-               
+                //加密失败
             })
 
 ```
@@ -37,10 +37,10 @@ RSA.encrypt(str,pubkey)
 
 RSA.decrypt(str, privkey)
             .then(result => {
-                action(result)
+                //解密成功
             })
             .catch(error => {
-                action('')
+                //解密失败
             })
 
 ```
