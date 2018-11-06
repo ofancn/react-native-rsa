@@ -44,3 +44,7 @@ RSA.decrypt(str, privkey)
             })
 
 ```
+
+#### 其它说明
+
+交流合作QQ:2250691988 邮箱:admin@ofan.cn
