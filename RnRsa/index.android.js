@@ -1,4 +1,4 @@
-import { JSEncrypt } from '../plugin/jsencrypt'
+import { JSEncrypt } from './jsencrypt'
 
 const RSA = new JSEncrypt()
 
