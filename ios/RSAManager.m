@@ -1,5 +1,4 @@
 #import "RSAManager.h"
-#import "AFNetworking.h"
 #import "RSA.h"
 
 @implementation RSAManager
