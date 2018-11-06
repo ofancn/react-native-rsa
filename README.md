@@ -6,7 +6,7 @@ react native RSA 加密
 #### 软件架构
 IOS原生加密
 
-android 采用 jsencrypt （后期加入原生）
+android 采用 jsencrypt (后期加入原生)
 
 
 #### 安装教程
