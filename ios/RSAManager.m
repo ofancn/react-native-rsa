@@ -9,8 +9,8 @@ RCT_EXPORT_MODULE();
 RCT_EXPORT_METHOD(encryptString:(NSString *)str pubkey:(NSString *)pubkey callback:(RCTResponseSenderBlock)callback)
 {
     @try {
-  NSString *encrypted = [RSA encryptString:str publicKey:pubkey];
-  callback(@[[NSNull null], encrypted]);
+        NSString *encrypted = [RSA encryptString:str publicKey:pubkey];
+        callback(@[[NSNull null], encrypted]);
     }
     @catch (NSException *exception) {
         callback(@[[NSNull null], @""]);
